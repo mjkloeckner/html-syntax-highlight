@@ -34,5 +34,10 @@ int main(void) {
 
 But it uses regular expression so it should be easier to adapt to other formats.
 
+## Example
+The main purpose of this program was to highlight code snippets on my blog.
+Checkout [this post](https://kloeckner.com.ar/blog/testing-syntax-highlight/testing-syntax-highlight)
+that I made to test it.
+
 ## License
 [MIT](https://opensource.org/licenses/MIT)
