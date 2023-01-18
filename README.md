@@ -9,7 +9,7 @@ code tags. Then you can add chroma themes with css.
 Make sure you have [golang](https://go.dev/) installed (if not follow this
 [instructions](https://go.dev/doc/install))then run:
 
-```go
+```shell
 $ go run main.go <test_file.html>
 ```
 
