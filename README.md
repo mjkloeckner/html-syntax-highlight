@@ -6,16 +6,18 @@ code tags. Then you can add chroma themes with css.
 
 ## Running
 
-Make sure you have [golang](https://go.dev/) installed (if not follow this
-[instructions](https://go.dev/doc/install))then run:
+Make sure you have [golang](https://go.dev/) installed (if not, follow [this
+instructions](https://go.dev/doc/install)) then run:
 
 ```shell
 $ go run main.go <test_file.html>
 ```
 
 with `<test_file.html>` being an html file containing some code to highlight.
-This is an example of a code snippet within an html file that this program
-should add css classes
+
+## Input file format
+This is an example of a code snippet contained within an html file that this
+program adds chroma css classes
 
 ```html
 (...)
@@ -32,7 +34,8 @@ int main(void) {
 (...)
 ```
 
-But it uses regular expression so it should be easier to adapt to other formats.
+To capture the code snippet it uses regular expression so it should be easier to
+adapt to other formats.
 
 ## Example
 The main purpose of this program was to highlight code snippets on my blog.
